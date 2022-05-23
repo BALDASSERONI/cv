@@ -1,0 +1,85 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-transform: uppercase;
+}
+
+section {
+    display: flex;
+
+}
+
+.titre {
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    border: solid;
+    background-color: red;
+}
+
+p {
+    font-size: 11px;
+}
+
+h2 {
+    font-size: 52px;
+}
+
+.p {
+    background-color: purple;
+}
+
+.c {
+    background-color: rgb(13, 196, 196);
+}
+
+
+.profil,
+.coord {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 70px;
+    text-align: center;
+    color: white;
+    border: solid;
+}
+
+.formation {
+    color: rgb(22, 205, 40);
+
+}
+
+
+.pr {
+    color: purple;
+
+}
+
+.co {
+    color: rgb(13, 196, 196);
+}
+
+p {
+    font-size: 20px;
+}
+
+h4 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    border: solid;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.formation {
+    columns: 3;
+    border: solid;
+}
+
+.for {
+    background-color: rgb(22, 205, 40);
+    color: white;
+}
